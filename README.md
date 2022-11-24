@@ -14,7 +14,7 @@
 #### 2. In project's directory terminal, run 'npm install sqlite3' to install sqlite3 for the project.
 #### 3. Run 'node index' to create cakes and insert data into the table. The same applies to customers.js and orders.js to create and seed customers and orders tables respectively.
 #### 4. Run 'node data' in the project's directory terminal to fetch and view the data from the database. One can also use online, sqlite, https://sqliteonline.com/ to inspect sql command
-#### The data should appear as show in the picture below;
+#### The data should appear as shown in the picture below;
 
 
 <img  src="./IMG_20221124_220932.jpg"
