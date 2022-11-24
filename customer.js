@@ -1,3 +1,4 @@
+//Requiring sqlite3
 const sqlite3 = require('sqlite3').verbose();
 
 // creating the Database and connection to the database

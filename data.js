@@ -1,3 +1,4 @@
+//requiring sqlite3
 const sqlite3 = require('sqlite3').verbose();
 
 // creating the Database and connection to the database
@@ -11,6 +12,7 @@ database.all(cakes, (err, rows) => {
   if(err) return console.error(err.message);
   rows.forEach((row) => console.log(row))
 });
+
 // Gets all customers
 const customers = `SELECT * FROM customers`;
 database.all(customers, (err, rows) => {
